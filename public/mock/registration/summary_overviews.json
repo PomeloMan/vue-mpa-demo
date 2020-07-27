@@ -1,0 +1,49 @@
+[
+  {
+    "index": 0,
+    "label": "进园点击情况汇总",
+    "tooltip": "点击进园车辆",
+    "sublabel": "进园",
+    "color": "#0294FF",
+    "total": 100,
+    "value": 1,
+    "percent": 1,
+    "image": "/images/registration/dashboard_1.svg"
+  },
+  {
+    "index": 1,
+    "key": "jyWeight",
+    "label": "进园磅重保存汇总",
+    "tooltip": "有进园磅重车辆",
+    "sublabel": "匹配",
+    "color": "#15B37F",
+    "total": 1000,
+    "value": 10,
+    "percent": 1,
+    "image": "/images/registration/dashboard_2.svg"
+  },
+  {
+    "index": 2,
+    "key": "driverReg",
+    "label": "司机登记汇总",
+    "tooltip": "填写司机信息车辆",
+    "sublabel": "已填",
+    "color": "#F5A740",
+    "total": 2000,
+    "value": 1000,
+    "percent": 50,
+    "image": "/images/registration/dashboard_3.svg"
+  },
+  {
+    "index": 3,
+    "key": "product",
+    "label": "成品出门证填写汇总",
+    "tooltip": "带货成品车辆",
+    "sublabel": "已填",
+    "color": "#EB755F",
+    "total": 100,
+    "value": 1,
+    "percent": 1,
+    "image": "/images/registration/dashboard_4.svg"
+  }
+]
