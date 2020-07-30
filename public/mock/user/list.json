@@ -1,0 +1,55 @@
+{
+  "content": [
+    {
+      "status": "Init",
+      "creator": null,
+      "modifier": null,
+      "createdDate": "2020-03-14T15:12:52.000+0000",
+      "modifiedDate": "2020-04-19T05:38:00.000+0000",
+      "version": 18,
+      "username": "fengchao",
+      "displayName": "冯超",
+      "password": null,
+      "avatar": "http://192.168.99.101:8200/file/bytes/user/avatar/54cca694-4ea1-4fce-84af-5d42757f8593",
+      "email": "chao.feng9@pactera.com",
+      "gender": null,
+      "search": null,
+      "authorities": null,
+      "file": null,
+      "statusCode": 0,
+      "statusDesc": "初始化"
+    },
+    {
+      "status": "Init",
+      "creator": null,
+      "modifier": null,
+      "createdDate": "2020-03-15T13:06:38.000+0000",
+      "modifiedDate": "2020-03-30T11:55:52.000+0000",
+      "version": 19,
+      "username": "fengchao1",
+      "displayName": "冯超分身",
+      "password": null,
+      "avatar": "http://192.168.99.101:8200/file/bytes/user/avatar/null",
+      "email": "fengchao.z@outlook.com",
+      "gender": null,
+      "search": null,
+      "authorities": null,
+      "file": null,
+      "statusCode": 0,
+      "statusDesc": "初始化"
+    }
+  ],
+  "totalElements": 2,
+  "totalPages": 1,
+  "last": true,
+  "number": 0,
+  "size": 10,
+  "sort": {
+    "sorted": true,
+    "unsorted": false,
+    "empty": false
+  },
+  "first": true,
+  "numberOfElements": 2,
+  "empty": false
+}

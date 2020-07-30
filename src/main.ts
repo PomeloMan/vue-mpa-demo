@@ -10,7 +10,7 @@ import moment from 'moment'
 moment.locale('zh-cn')
 Vue.prototype.$moment = moment
 
-import axios from 'axios'
+import axios, { AxiosInstance } from 'axios'
 const http = axios.create({
   baseURL: process.env.VUE_APP_BASE_URL,
   timeout: 1000 * 30,
@@ -20,5 +20,12 @@ const http = axios.create({
   }
 })
 Vue.prototype.$http = http
+
+declare module 'vue/types/vue' {
+  interface Vue {
+    $http: AxiosInstance;
+    $moment: object
+  }
+}
 
 export default Vue

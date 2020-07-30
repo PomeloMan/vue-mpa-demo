@@ -14,6 +14,11 @@ module.exports = {
       entry: 'src/pages/registration/summary.ts',
       template: 'public/index.html',
       filename: 'main.html'
+    },
+    user: {
+      entry: 'src/pages/user/index',
+      template: 'public/index.html',
+      filename: 'user.html'
     }
   },
   publicPath: isProduction ? './' : '', // 部署应用包时的基本 URL
