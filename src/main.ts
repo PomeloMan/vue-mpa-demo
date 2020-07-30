@@ -24,7 +24,7 @@ Vue.prototype.$http = http
 declare module 'vue/types/vue' {
   interface Vue {
     $http: AxiosInstance;
-    $moment: object
+    $moment: object;
   }
 }
 
